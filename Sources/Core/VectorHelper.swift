@@ -1,6 +1,6 @@
 import Foundation
 
-protocol VectorType {
+public protocol VectorType {
     init(values: [Float])
     var values: [Float] { get }
 }

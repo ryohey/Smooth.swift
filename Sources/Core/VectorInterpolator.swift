@@ -15,17 +15,17 @@ class ArrayInterpolator: Interpolator {
     }
 }
 
-class VectorInterpolator<T>: Interpolator where T: VectorType {
-    typealias Value = T
-    let points: [T]
+public class VectorInterpolator<T>: Interpolator where T: VectorType {
+    public typealias Value = T
+    public let points: [T]
     private let arrayInterpolator: ArrayInterpolator
 
-    init(points: [T], interpolatorCreator: ([Float]) -> InterpolateFunc<Float>) {
+    public init(points: [T], interpolatorCreator: ([Float]) -> InterpolateFunc<Float>) {
         self.points = points
         arrayInterpolator = ArrayInterpolator(points: splitVectors(points), interpolatorCreator: interpolatorCreator)
     }
 
-    func interpolate(_ t: Float) -> T {
+    public func interpolate(_ t: Float) -> T {
         return T(values: arrayInterpolator.interpolate(t))
     }
 }

@@ -10,15 +10,15 @@
 		D935296B210C1AE1007C2201 /* Smooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9352961210C1AE1007C2201 /* Smooth.framework */; };
 		D9352970210C1AE1007C2201 /* SmoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935296F210C1AE1007C2201 /* SmoothTests.swift */; };
 		D935298C210C1C5F007C2201 /* InterpolatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935298B210C1C5F007C2201 /* InterpolatorTests.swift */; };
-		D9352997210C2CD8007C2201 /* SincFilterInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935298E210C2CD7007C2201 /* SincFilterInterpolator.swift */; };
-		D9352998210C2CD8007C2201 /* Smooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D935298F210C2CD7007C2201 /* Smooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9352999210C2CD8007C2201 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352990210C2CD7007C2201 /* Interpolator.swift */; };
-		D935299A210C2CD8007C2201 /* VectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352991210C2CD7007C2201 /* VectorHelper.swift */; };
-		D935299B210C2CD8007C2201 /* VectorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352992210C2CD7007C2201 /* VectorInterpolator.swift */; };
-		D935299C210C2CD8007C2201 /* LinearInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352993210C2CD7007C2201 /* LinearInterpolator.swift */; };
-		D935299D210C2CD8007C2201 /* CubicInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352994210C2CD7007C2201 /* CubicInterpolator.swift */; };
-		D935299E210C2CD8007C2201 /* Interpolator+SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352995210C2CD7007C2201 /* Interpolator+SceneKit.swift */; };
-		D935299F210C2CD8007C2201 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9352996210C2CD7007C2201 /* Info.plist */; };
+		D93529AC210C2E99007C2201 /* SincFilterInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A3210C2E99007C2201 /* SincFilterInterpolator.swift */; };
+		D93529AD210C2E99007C2201 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A4210C2E99007C2201 /* Interpolator.swift */; };
+		D93529AE210C2E99007C2201 /* VectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A5210C2E99007C2201 /* VectorHelper.swift */; };
+		D93529AF210C2E99007C2201 /* VectorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A6210C2E99007C2201 /* VectorInterpolator.swift */; };
+		D93529B0210C2E99007C2201 /* LinearInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A7210C2E99007C2201 /* LinearInterpolator.swift */; };
+		D93529B1210C2E99007C2201 /* CubicInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A8210C2E99007C2201 /* CubicInterpolator.swift */; };
+		D93529B2210C2E99007C2201 /* Interpolator+Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A9210C2E99007C2201 /* Interpolator+Vector.swift */; };
+		D93529B3210C2E99007C2201 /* Smooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D93529AA210C2E99007C2201 /* Smooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93529B4210C2E99007C2201 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93529AB210C2E99007C2201 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +37,15 @@
 		D935296F210C1AE1007C2201 /* SmoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothTests.swift; sourceTree = "<group>"; };
 		D9352971210C1AE1007C2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D935298B210C1C5F007C2201 /* InterpolatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpolatorTests.swift; sourceTree = "<group>"; };
-		D935298E210C2CD7007C2201 /* SincFilterInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SincFilterInterpolator.swift; sourceTree = "<group>"; };
-		D935298F210C2CD7007C2201 /* Smooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smooth.h; sourceTree = "<group>"; };
-		D9352990210C2CD7007C2201 /* Interpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
-		D9352991210C2CD7007C2201 /* VectorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorHelper.swift; sourceTree = "<group>"; };
-		D9352992210C2CD7007C2201 /* VectorInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorInterpolator.swift; sourceTree = "<group>"; };
-		D9352993210C2CD7007C2201 /* LinearInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearInterpolator.swift; sourceTree = "<group>"; };
-		D9352994210C2CD7007C2201 /* CubicInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicInterpolator.swift; sourceTree = "<group>"; };
-		D9352995210C2CD7007C2201 /* Interpolator+SceneKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Interpolator+SceneKit.swift"; sourceTree = "<group>"; };
-		D9352996210C2CD7007C2201 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93529A3210C2E99007C2201 /* SincFilterInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SincFilterInterpolator.swift; sourceTree = "<group>"; };
+		D93529A4210C2E99007C2201 /* Interpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
+		D93529A5210C2E99007C2201 /* VectorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorHelper.swift; sourceTree = "<group>"; };
+		D93529A6210C2E99007C2201 /* VectorInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorInterpolator.swift; sourceTree = "<group>"; };
+		D93529A7210C2E99007C2201 /* LinearInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearInterpolator.swift; sourceTree = "<group>"; };
+		D93529A8210C2E99007C2201 /* CubicInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicInterpolator.swift; sourceTree = "<group>"; };
+		D93529A9210C2E99007C2201 /* Interpolator+Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Interpolator+Vector.swift"; sourceTree = "<group>"; };
+		D93529AA210C2E99007C2201 /* Smooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smooth.h; sourceTree = "<group>"; };
+		D93529AB210C2E99007C2201 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		D9352957210C1AE1007C2201 = {
 			isa = PBXGroup;
 			children = (
-				D935298D210C2CD7007C2201 /* Sources */,
+				D93529A1210C2E99007C2201 /* Sources */,
 				D935296E210C1AE1007C2201 /* SmoothTests */,
 				D9352962210C1AE1007C2201 /* Products */,
 			);
@@ -95,20 +95,28 @@
 			path = SmoothTests;
 			sourceTree = "<group>";
 		};
-		D935298D210C2CD7007C2201 /* Sources */ = {
+		D93529A1210C2E99007C2201 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D935298E210C2CD7007C2201 /* SincFilterInterpolator.swift */,
-				D935298F210C2CD7007C2201 /* Smooth.h */,
-				D9352990210C2CD7007C2201 /* Interpolator.swift */,
-				D9352991210C2CD7007C2201 /* VectorHelper.swift */,
-				D9352992210C2CD7007C2201 /* VectorInterpolator.swift */,
-				D9352993210C2CD7007C2201 /* LinearInterpolator.swift */,
-				D9352994210C2CD7007C2201 /* CubicInterpolator.swift */,
-				D9352995210C2CD7007C2201 /* Interpolator+SceneKit.swift */,
-				D9352996210C2CD7007C2201 /* Info.plist */,
+				D93529A2210C2E99007C2201 /* Core */,
+				D93529AA210C2E99007C2201 /* Smooth.h */,
+				D93529AB210C2E99007C2201 /* Info.plist */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		D93529A2210C2E99007C2201 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D93529A3210C2E99007C2201 /* SincFilterInterpolator.swift */,
+				D93529A4210C2E99007C2201 /* Interpolator.swift */,
+				D93529A5210C2E99007C2201 /* VectorHelper.swift */,
+				D93529A6210C2E99007C2201 /* VectorInterpolator.swift */,
+				D93529A7210C2E99007C2201 /* LinearInterpolator.swift */,
+				D93529A8210C2E99007C2201 /* CubicInterpolator.swift */,
+				D93529A9210C2E99007C2201 /* Interpolator+Vector.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9352998210C2CD8007C2201 /* Smooth.h in Headers */,
+				D93529B3210C2E99007C2201 /* Smooth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D935299F210C2CD8007C2201 /* Info.plist in Resources */,
+				D93529B4210C2E99007C2201 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,13 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9352999210C2CD8007C2201 /* Interpolator.swift in Sources */,
-				D935299C210C2CD8007C2201 /* LinearInterpolator.swift in Sources */,
-				D935299B210C2CD8007C2201 /* VectorInterpolator.swift in Sources */,
-				D935299A210C2CD8007C2201 /* VectorHelper.swift in Sources */,
-				D9352997210C2CD8007C2201 /* SincFilterInterpolator.swift in Sources */,
-				D935299E210C2CD8007C2201 /* Interpolator+SceneKit.swift in Sources */,
-				D935299D210C2CD8007C2201 /* CubicInterpolator.swift in Sources */,
+				D93529AD210C2E99007C2201 /* Interpolator.swift in Sources */,
+				D93529B0210C2E99007C2201 /* LinearInterpolator.swift in Sources */,
+				D93529AF210C2E99007C2201 /* VectorInterpolator.swift in Sources */,
+				D93529AE210C2E99007C2201 /* VectorHelper.swift in Sources */,
+				D93529AC210C2E99007C2201 /* SincFilterInterpolator.swift in Sources */,
+				D93529B2210C2E99007C2201 /* Interpolator+Vector.swift in Sources */,
+				D93529B1210C2E99007C2201 /* CubicInterpolator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -360,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

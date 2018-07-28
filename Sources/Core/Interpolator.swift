@@ -19,4 +19,4 @@ extension Interpolator where Value == Float {
     }
 }
 
-typealias InterpolateFunc<Value> = (_ t: Value) -> Value
+public typealias InterpolateFunc<Value> = (_ t: Value) -> Value
