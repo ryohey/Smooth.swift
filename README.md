@@ -1,7 +1,25 @@
 # Smooth.swift
 
+
+[![CocoaPods](https://img.shields.io/cocoapods/v/Smooth.svg)](https://cocoapods.org/pods/Smooth)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 Turn arrays into smooth functions.
 Interpolation functions are ported from [Smooth.js](https://github.com/osuushi/Smooth.js/).
+
+## Installation
+
+### CocoaPods
+
+```ruby
+pod 'Smooth'
+```
+
+### Carthage
+
+```
+github "ryohey/Smooth.swift"
+```
 
 ## Input
 
