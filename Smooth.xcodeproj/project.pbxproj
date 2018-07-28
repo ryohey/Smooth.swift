@@ -7,71 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D935292D210C1678007C2201 /* Smooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935292C210C1678007C2201 /* Smooth.swift */; };
+		D935296B210C1AE1007C2201 /* Smooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9352961210C1AE1007C2201 /* Smooth.framework */; };
+		D9352970210C1AE1007C2201 /* SmoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935296F210C1AE1007C2201 /* SmoothTests.swift */; };
+		D9352972210C1AE1007C2201 /* Smooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D9352964210C1AE1007C2201 /* Smooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9352984210C1B9A007C2201 /* VectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935297D210C1B9A007C2201 /* VectorHelper.swift */; };
+		D9352985210C1B9A007C2201 /* LinearInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935297E210C1B9A007C2201 /* LinearInterpolator.swift */; };
+		D9352986210C1B9A007C2201 /* CubicInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935297F210C1B9A007C2201 /* CubicInterpolator.swift */; };
+		D9352987210C1B9A007C2201 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352980210C1B9A007C2201 /* Interpolator.swift */; };
+		D9352988210C1B9A007C2201 /* Interpolator+SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352981210C1B9A007C2201 /* Interpolator+SceneKit.swift */; };
+		D9352989210C1B9A007C2201 /* SincFilterInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352982210C1B9A007C2201 /* SincFilterInterpolator.swift */; };
+		D935298A210C1B9A007C2201 /* VectorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9352983210C1B9A007C2201 /* VectorInterpolator.swift */; };
+		D935298C210C1C5F007C2201 /* InterpolatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935298B210C1C5F007C2201 /* InterpolatorTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D9352927210C1678007C2201 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		D935296C210C1AE1007C2201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9352958210C1AE1007C2201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9352960210C1AE1007C2201;
+			remoteInfo = Smooth;
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9352929210C1678007C2201 /* libSmooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSmooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D935292C210C1678007C2201 /* Smooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smooth.swift; sourceTree = "<group>"; };
+		D9352961210C1AE1007C2201 /* Smooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Smooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9352964210C1AE1007C2201 /* Smooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smooth.h; sourceTree = "<group>"; };
+		D9352965210C1AE1007C2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D935296A210C1AE1007C2201 /* SmoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D935296F210C1AE1007C2201 /* SmoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothTests.swift; sourceTree = "<group>"; };
+		D9352971210C1AE1007C2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D935297D210C1B9A007C2201 /* VectorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorHelper.swift; sourceTree = "<group>"; };
+		D935297E210C1B9A007C2201 /* LinearInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearInterpolator.swift; sourceTree = "<group>"; };
+		D935297F210C1B9A007C2201 /* CubicInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicInterpolator.swift; sourceTree = "<group>"; };
+		D9352980210C1B9A007C2201 /* Interpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
+		D9352981210C1B9A007C2201 /* Interpolator+SceneKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Interpolator+SceneKit.swift"; sourceTree = "<group>"; };
+		D9352982210C1B9A007C2201 /* SincFilterInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SincFilterInterpolator.swift; sourceTree = "<group>"; };
+		D9352983210C1B9A007C2201 /* VectorInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorInterpolator.swift; sourceTree = "<group>"; };
+		D935298B210C1C5F007C2201 /* InterpolatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpolatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9352926210C1678007C2201 /* Frameworks */ = {
+		D935295D210C1AE1007C2201 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9352967210C1AE1007C2201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D935296B210C1AE1007C2201 /* Smooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D9352920210C1678007C2201 = {
+		D9352957210C1AE1007C2201 = {
 			isa = PBXGroup;
 			children = (
-				D935292B210C1678007C2201 /* Smooth */,
-				D935292A210C1678007C2201 /* Products */,
+				D9352963210C1AE1007C2201 /* Smooth */,
+				D935296E210C1AE1007C2201 /* SmoothTests */,
+				D9352962210C1AE1007C2201 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D935292A210C1678007C2201 /* Products */ = {
+		D9352962210C1AE1007C2201 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9352929210C1678007C2201 /* libSmooth.a */,
+				D9352961210C1AE1007C2201 /* Smooth.framework */,
+				D935296A210C1AE1007C2201 /* SmoothTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D935292B210C1678007C2201 /* Smooth */ = {
+		D9352963210C1AE1007C2201 /* Smooth */ = {
 			isa = PBXGroup;
 			children = (
-				D935292C210C1678007C2201 /* Smooth.swift */,
+				D9352964210C1AE1007C2201 /* Smooth.h */,
+				D9352965210C1AE1007C2201 /* Info.plist */,
+				D935297F210C1B9A007C2201 /* CubicInterpolator.swift */,
+				D9352980210C1B9A007C2201 /* Interpolator.swift */,
+				D9352981210C1B9A007C2201 /* Interpolator+SceneKit.swift */,
+				D935297E210C1B9A007C2201 /* LinearInterpolator.swift */,
+				D9352982210C1B9A007C2201 /* SincFilterInterpolator.swift */,
+				D935297D210C1B9A007C2201 /* VectorHelper.swift */,
+				D9352983210C1B9A007C2201 /* VectorInterpolator.swift */,
 			);
 			path = Smooth;
 			sourceTree = "<group>";
 		};
+		D935296E210C1AE1007C2201 /* SmoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				D935298B210C1C5F007C2201 /* InterpolatorTests.swift */,
+				D935296F210C1AE1007C2201 /* SmoothTests.swift */,
+				D9352971210C1AE1007C2201 /* Info.plist */,
+			);
+			path = SmoothTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D935295E210C1AE1007C2201 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9352972210C1AE1007C2201 /* Smooth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		D9352928210C1678007C2201 /* Smooth */ = {
+		D9352960210C1AE1007C2201 /* Smooth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9352930210C1678007C2201 /* Build configuration list for PBXNativeTarget "Smooth" */;
+			buildConfigurationList = D9352975210C1AE1007C2201 /* Build configuration list for PBXNativeTarget "Smooth" */;
 			buildPhases = (
-				D9352925210C1678007C2201 /* Sources */,
-				D9352926210C1678007C2201 /* Frameworks */,
-				D9352927210C1678007C2201 /* CopyFiles */,
+				D935295C210C1AE1007C2201 /* Sources */,
+				D935295D210C1AE1007C2201 /* Frameworks */,
+				D935295E210C1AE1007C2201 /* Headers */,
+				D935295F210C1AE1007C2201 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -79,54 +139,117 @@
 			);
 			name = Smooth;
 			productName = Smooth;
-			productReference = D9352929210C1678007C2201 /* libSmooth.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = D9352961210C1AE1007C2201 /* Smooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9352969210C1AE1007C2201 /* SmoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9352978210C1AE1007C2201 /* Build configuration list for PBXNativeTarget "SmoothTests" */;
+			buildPhases = (
+				D9352966210C1AE1007C2201 /* Sources */,
+				D9352967210C1AE1007C2201 /* Frameworks */,
+				D9352968210C1AE1007C2201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D935296D210C1AE1007C2201 /* PBXTargetDependency */,
+			);
+			name = SmoothTests;
+			productName = SmoothTests;
+			productReference = D935296A210C1AE1007C2201 /* SmoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D9352921210C1678007C2201 /* Project object */ = {
+		D9352958210C1AE1007C2201 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = codingcafe.jp;
 				TargetAttributes = {
-					D9352928210C1678007C2201 = {
+					D9352960210C1AE1007C2201 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					D9352969210C1AE1007C2201 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = D9352924210C1678007C2201 /* Build configuration list for PBXProject "Smooth" */;
+			buildConfigurationList = D935295B210C1AE1007C2201 /* Build configuration list for PBXProject "Smooth" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D9352920210C1678007C2201;
-			productRefGroup = D935292A210C1678007C2201 /* Products */;
+			mainGroup = D9352957210C1AE1007C2201;
+			productRefGroup = D9352962210C1AE1007C2201 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9352928210C1678007C2201 /* Smooth */,
+				D9352960210C1AE1007C2201 /* Smooth */,
+				D9352969210C1AE1007C2201 /* SmoothTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		D935295F210C1AE1007C2201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9352968210C1AE1007C2201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D9352925210C1678007C2201 /* Sources */ = {
+		D935295C210C1AE1007C2201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D935292D210C1678007C2201 /* Smooth.swift in Sources */,
+				D9352984210C1B9A007C2201 /* VectorHelper.swift in Sources */,
+				D935298A210C1B9A007C2201 /* VectorInterpolator.swift in Sources */,
+				D9352987210C1B9A007C2201 /* Interpolator.swift in Sources */,
+				D9352985210C1B9A007C2201 /* LinearInterpolator.swift in Sources */,
+				D9352988210C1B9A007C2201 /* Interpolator+SceneKit.swift in Sources */,
+				D9352989210C1B9A007C2201 /* SincFilterInterpolator.swift in Sources */,
+				D9352986210C1B9A007C2201 /* CubicInterpolator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9352966210C1AE1007C2201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D935298C210C1C5F007C2201 /* InterpolatorTests.swift in Sources */,
+				D9352970210C1AE1007C2201 /* SmoothTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D935296D210C1AE1007C2201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9352960210C1AE1007C2201 /* Smooth */;
+			targetProxy = D935296C210C1AE1007C2201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		D935292E210C1678007C2201 /* Debug */ = {
+		D9352973210C1AE1007C2201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,6 +283,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -183,10 +307,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D935292F210C1678007C2201 /* Release */ = {
+		D9352974210C1AE1007C2201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,6 +346,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -237,30 +364,97 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D9352931210C1678007C2201 /* Debug */ = {
+		D9352976210C1AE1007C2201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XHN94CT6NC;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Smooth/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.codingcafe.Smooth;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D9352932210C1678007C2201 /* Release */ = {
+		D9352977210C1AE1007C2201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XHN94CT6NC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Smooth/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.codingcafe.Smooth;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9352979210C1AE1007C2201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHN94CT6NC;
-				OTHER_LDFLAGS = "-ObjC";
+				INFOPLIST_FILE = SmoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.codingcafe.SmoothTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D935297A210C1AE1007C2201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XHN94CT6NC;
+				INFOPLIST_FILE = SmoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.codingcafe.SmoothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -269,25 +463,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9352924210C1678007C2201 /* Build configuration list for PBXProject "Smooth" */ = {
+		D935295B210C1AE1007C2201 /* Build configuration list for PBXProject "Smooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D935292E210C1678007C2201 /* Debug */,
-				D935292F210C1678007C2201 /* Release */,
+				D9352973210C1AE1007C2201 /* Debug */,
+				D9352974210C1AE1007C2201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9352930210C1678007C2201 /* Build configuration list for PBXNativeTarget "Smooth" */ = {
+		D9352975210C1AE1007C2201 /* Build configuration list for PBXNativeTarget "Smooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9352931210C1678007C2201 /* Debug */,
-				D9352932210C1678007C2201 /* Release */,
+				D9352976210C1AE1007C2201 /* Debug */,
+				D9352977210C1AE1007C2201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9352978210C1AE1007C2201 /* Build configuration list for PBXNativeTarget "SmoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9352979210C1AE1007C2201 /* Debug */,
+				D935297A210C1AE1007C2201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D9352921210C1678007C2201 /* Project object */;
+	rootObject = D9352958210C1AE1007C2201 /* Project object */;
 }
