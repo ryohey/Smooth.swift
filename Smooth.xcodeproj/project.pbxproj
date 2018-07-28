@@ -18,7 +18,6 @@
 		D93529B1210C2E99007C2201 /* CubicInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A8210C2E99007C2201 /* CubicInterpolator.swift */; };
 		D93529B2210C2E99007C2201 /* Interpolator+Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93529A9210C2E99007C2201 /* Interpolator+Vector.swift */; };
 		D93529B3210C2E99007C2201 /* Smooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D93529AA210C2E99007C2201 /* Smooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D93529B4210C2E99007C2201 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93529AB210C2E99007C2201 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93529B4210C2E99007C2201 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
