@@ -1,7 +1,7 @@
 import Foundation
 import XCTest
 import SceneKit
-@testable import WonderDoor
+@testable import Smooth
 
 private let epsilon: Float = 0.0001
 
