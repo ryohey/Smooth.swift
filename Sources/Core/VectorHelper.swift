@@ -17,5 +17,8 @@ func assembleVectors<T>(_ values: [[Float]]) -> [T] where T: VectorType {
 
 // 転置する
 func transverseArray2D(_ values: [[Float]]) -> [[Float]] {
+    if (values.count == 0 || values[0].count == 0) {
+        return []
+    }
     return (0..<values[0].count).map({ i in values.map({ $0[i] }) })
 }
